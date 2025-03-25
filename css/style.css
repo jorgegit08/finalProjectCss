@@ -1,0 +1,132 @@
+nav {
+    background-color:  #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+}
+
+nav a {
+    background-color: #CCC;
+    border: solid 1px black;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: underline;
+    transition: transform 0.2s ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #DDDDDD;
+}
+
+header {
+    background-color: #DDDDDD;
+}
+
+header>img {
+    position: relative;  
+    top: 20px; 
+    width: 10%;
+}
+
+main {
+    background-color:  #FFFFFF;
+    font-size: 16px;
+}
+
+main>p {
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+footer {
+    background-color:  #FFFFFF;
+}
+
+ul {
+    text-align: center;
+}
+
+h1 {
+    color: #00F;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    line-height: 20px;
+}
+
+a {
+    color: #000000;
+}
+  
+a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:active {
+    color: orange;
+}
+
+footer>div>img{
+    width: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: unset;
+}
+
+.grid-container>img {
+    border-radius: 10%;
+    opacity: 0.5;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+.grid-container>img:hover {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: unset;
+}
+
+.grid-footer>img {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.flexClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offpage{
+    position: absolute;
+    left: -1000px;
+}
